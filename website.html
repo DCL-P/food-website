@@ -9,25 +9,44 @@
 </head>
 <body style="min-height:100%; background-image:url('stripe_background.jpg'); background-size:cover;">
 
-  <div class="container-fluid align-items-center pt-2 bg-dark shadow" style="height:100px">
+  <div class="row d-flex container-fluid align-items-center justify-content-center bg-dark shadow-lg" style="height:140px">
 
-    <nav class="navbar navbar-expand-sm rounded justify-content-center" style="background-color:rgb(225, 225, 225, .40)">
-      <div class="container-fluid">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="navbar-brand"><img alt="picture of a planet logo" src="https://www.pngmart.com/files/17/Universe-Galaxy-Space-PNG-Image.png" style="width:40px"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-light">this is a link :D</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-light pl-2">this is a link :D</a>
-          </li>
-        </ul>
+    <div class="container rounded-4 justify-content-center align-items-center"  style="background-color:rgba(204, 136, 0, 0.4); width:100%; height:80px">
+      <nav class="d-flex navbar navbar-expand-sm rounded shadow-lg justify-content-center align-items-center">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbar-brand"><img alt="picture of a planet logo" src="https://png.pngtree.com/png-vector/20230617/ourmid/pngtree-cooking-logo-vector-png-image_7152739.png" style="width:40px"></a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Recipes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" class="nav-link"><img alt="search icon" src="search.svg"></button>
+        <div class="offcanvas offcanvas-bottom" id="offcanvas1">
+          <div class="offcanvas-header justify-content-center align-items-center">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+          <div class="offcanvas-footer">
+            <p>Test</p>
+            <p>Test</p>
+          </div>
+        </div>
       </div>
-    </nav>
-
+    </div>
   </div>
-
 </body>
 </html>
